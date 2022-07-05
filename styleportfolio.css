@@ -12,15 +12,16 @@ span {
     color: #d8592a;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 100px;
+    padding-right: 100px;
 }
 
 .adjust {
-    width: 50%;
+    width: 100%;
     padding-left: 2%;
-    padding-right: 150px;
+    padding-right: 100px;
 }
 
 .adjust image {
@@ -36,13 +37,20 @@ section {
     border-radius: 5px;
 }
 
-#top-banner {
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
-#down-banner {
+.down-banner {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+
+
+
+.newadjust {
+    width: 50%;
+
 }
