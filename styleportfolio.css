@@ -49,8 +49,31 @@ span {
 }
 
 
+.developer-shadow {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-left: 7px solid tomato;
 
-.newadjust {
-    width: 50%;
+}
 
+.border-second {
+    border-left: 7px solid blue;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.exp-background {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
 }
